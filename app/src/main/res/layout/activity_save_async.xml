@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveAsyncActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/et_nombre_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/et_edad_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"/>
+
+    <Button
+        android:id="@+id/btn_guardar_dato_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Dato"/>
+
+    <Button
+        android:id="@+id/btn_ver_dato_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver dato"/>
+
+    <Button
+        android:id="@+id/btn_query_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query"/>
+
+</LinearLayout>

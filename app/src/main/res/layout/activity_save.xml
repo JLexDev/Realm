@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveActivity"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <!-- Tutor ya no es un String
+    <EditText
+        android:id="@+id/et_tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tutor"/>
+    -->
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"/>
+
+    <Button
+        android:id="@+id/btn_guardar_dato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Dato"/>
+
+
+</LinearLayout>
